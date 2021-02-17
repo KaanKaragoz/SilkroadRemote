@@ -1,6 +1,6 @@
 -ENG
 Welcome to Remote Plugin
-Follow the steps to install.
+Follow the steps to install. (https://www.youtube.com/watch?v=EwHxygCwj30&feature=youtu.be)
 
 1. Copy "Silkroad Remote.py" to phBot Testing\Plugins directory
 2. In order to run the plugin, you need to install some libraries.
@@ -17,7 +17,7 @@ Follow the steps to install.
 
 
 -TR
-Silkroad Remote plugini yüklemek için aşağıdaki adımları izleyin.
+Silkroad Remote plugini yüklemek için aşağıdaki adımları izleyin. (https://www.youtube.com/watch?v=EwHxygCwj30&feature=youtu.be)
 
 1.Phbot u açın. "Eklentiler" seçeneğinden "Klasörü Aç" ı seçin. Testing\Plugins
 	dosyası açılacaktır. "Silkroad Remote.py" dosyasını buraya kopyalayın.
