@@ -10,6 +10,7 @@ Follow the steps to install.
 
 
 3. Reload plugins from phbot. 
+4. Download mobil application. (https://play.google.com/store/apps/details?id=com.mechastudios.srotr_mobile_bot)
 4. Click to Silkroad Remote tab
 5. Click Create QR and scan it from mobile app and you are ready to go!
 
@@ -24,8 +25,9 @@ Silkroad Remote plugini yüklemek için aşağıdaki adımları izleyin.
 	Bu dosyalar indirdiğiniz dosyada python38 klasörünün içindedir.
 	Bu klasörü Testing\Plugins dizinindeki klasör ile değiştirin.
 3.Phbot'tan "yeniden yükle"ye basın.
-4."Silkroad Remote" adinda yeni bir sayfa oluşacaktır
-5.Buradan "Create QR Code" butonuna tıklayarak bilgisayarınıza özel güvenli bir QR Code oluşturabilirsiniz.
+4.Mobil uygulamayı indirin. (https://play.google.com/store/apps/details?id=com.mechastudios.srotr_mobile_bot)
+5."Silkroad Remote" adinda yeni bir sayfa oluşacaktır
+6.Buradan "Create QR Code" butonuna tıklayarak bilgisayarınıza özel güvenli bir QR Code oluşturabilirsiniz.
 	QR Code 'u telefon uygulamanızdan tanıtmak için 4 saniye süre verilir. Bu süre içinde tarama işlemini
 	gerçekleştiremezseniz tekrar kod oluşturun. Kodu tarattığınızda karakteriniz ile telefon uygulaması
 	otomatik olarak eşleşecektir.
