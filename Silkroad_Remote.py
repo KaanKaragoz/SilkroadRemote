@@ -335,7 +335,12 @@ def createQR():
         oneClick = False
         character_data = get_character_data() 
         sendPath = "http://www.mechayazilim.com/qrReceive.php"
-        global qrId    
+        oldQrId = ""
+        try:
+            with open('Plugins/userInfo/'+ character_data['server'] + '_' + character_data['name'] +'.json') as f:  
+                oldQrId = json.load(f)
+        except:
+            pass
         accountId = character_data['account_id']
         playerId = character_data['player_id']
         server = character_data['server']
@@ -352,7 +357,7 @@ def createQR():
         with open('Plugins/userInfo/'+ character_data['server'] + '_' + character_data['name'] + '.json', 'w') as json_dosya:
             json.dump(creatingQR, json_dosya)
      
-        sendingData = {'newQrId':creatingQR,'oldQrId':qrId}
+        sendingData = {'newQrId':creatingQR,'oldQrId':oldQrId}
         getData = character_data.copy()
         getData.update(sendingData)
         try:
@@ -363,8 +368,7 @@ def createQR():
             log('QR Code could not be sent.')
             pass
 
- 
-sayi = ""
+
 
 def createQRCodeShow(creatingQR):
     global oneClick
@@ -393,10 +397,6 @@ def createQRCodeShow(creatingQR):
         
         lab1 = Label(window, text="Please scan the QR Code\nfrom Silkroad Remote App",  font=("Helvetica", 16,),bg='#ffffff',fg='black',borderwidth=2, relief="ridge")
         lab1.grid(row=0, column= 0, sticky= N+S+E+W)
-
-        
-        
-        
 
         #Making responsive layout:
         totalRows= 2
